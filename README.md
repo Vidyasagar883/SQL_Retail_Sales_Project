@@ -6,7 +6,7 @@
 **Level**: Beginner  
 **Database**: `Sql_Project_P1`
 
-This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.
+This project shows SQL skills by setting up a retail sales database, exploring the data, cleaning it, and answering business questions with queries.
 
 ## Objectives
 
@@ -19,8 +19,8 @@ This project is designed to demonstrate SQL skills and techniques typically used
 
 ### 1. Database Setup
 
-- **Database Creation**: The project starts by creating a database named `p1_retail_db`.
-- **Table Creation**: A table named `retail_sales` is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
+- **Database Creation**: The project starts by creating a database named `Sql_Project_P1`.
+- **Table Creation**: A table named `Retail_sales` is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 
 ```sql
 CREATE DATABASE p1_retail_db;
@@ -212,6 +212,7 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 ## Author - Vidyasagar Panugothu
 
 This project is part of my portfolio, showcasing the SQL skills essential for data analyst and DBMS roles.
+
 
 
 
