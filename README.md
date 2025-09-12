@@ -66,7 +66,10 @@ customer_id IS NULL OR gender IS NULL OR age IS NULL OR
 category IS NULL OR quantity IS NULL OR price_per_unit IS NULL OR
 cogs IS NULL OR total_sale IS NULL;
 ```
-''' ALTER TABLE Retail_sales RENAME COLUMN quantiy to quantity;'''
+2.1 ** Renaming the Column name from quantiy to quantity. **
+''' ALTER TABLE Retail_sales 
+    RENAME COLUMN quantiy to quantity;
+'''
 
 ### 3. Data Analysis & Findings
 
@@ -209,4 +212,5 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 
 This project is part of my portfolio, showcasing the SQL skills essential for data analyst and DBMS roles.
 Thank you for your support, and I look forward to connecting with you!
+
 
