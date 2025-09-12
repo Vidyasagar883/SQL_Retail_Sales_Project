@@ -77,14 +77,13 @@ cogs IS NULL OR total_sale IS NULL;
 
 The following SQL queries were developed to answer specific business questions:
 
-1. **Write a SQL query to retrieve all columns for sales made on '2023-1-25**:
+3. **Write a SQL query to retrieve all columns for sales made on '2023-1-25**:
 ```sql
-SELECT *
 SELECT * FROM Retail_sales 
 WHERE sale_date ='2023-1-25';
 ```
 
-2. **Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 3 in the month of May-2023**:
+4. **Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 3 in the month of May-2023**:
 ```sql
 SELECT * FROM Retail_sales 
 WHERE category ='clothing'AND 
@@ -94,7 +93,7 @@ MONTH(sale_date) =05;
 
 ```
 
-3. **Write a SQL query to calculate the total sales (total_sale) for each category.**:
+5. **Write a SQL query to calculate the total sales (total_sale) for each category.**:
 ```sql
 SELECT category , 
 SUM(total_sale) as net_sale,
@@ -102,20 +101,20 @@ COUNT(*) AS Total_Orders
 FROM Retail_sales GROUP BY category;
 ```
 
-4. **Write a SQL query to find the average age of customers who purchased items from the 'Electronics' category.**:
+6. **Write a SQL query to find the average age of customers who purchased items from the 'Electronics' category.**:
 ```sql
 SELECT ROUND(AVG(age) , 2) AS Avg_age ,category
 FROM Retail_sales 
 WHERE category ='Electronics';
 ```
 
-5. **Write a SQL query to find all transactions where the total_sale is greater than 1500.**:
+7. **Write a SQL query to find all transactions where the total_sale is greater than 1500.**:
 ```sql
 SELECT * FROM Retail_sales 
 WHERE total_sale>1500;
 ```
 
-6. **Write a SQL query to find the total number of transactions (transaction_id) made by each gender in each category.**:
+8. **Write a SQL query to find the total number of transactions (transaction_id) made by each gender in each category.**:
 ```sql
 SELECT category, 
 COUNT(*) AS Total_transactions,
@@ -125,7 +124,7 @@ GROUP BY category,Gender
 ORDER BY 1;
 ```
 
-7. **Write a SQL query to calculate the average sale for each month.**:
+9. **Write a SQL query to calculate the average sale for each month.**:
 ```sql
 SELECT 
 YEAR(sale_date) year, 
@@ -135,7 +134,7 @@ FROM Retail_sales GROUP BY 1,2
  ORDER BY year DESC;
 ```
 
-8. **Find out best selling month in each year**:
+10. **Find out best selling month in each year**:
 ```sql
 SELECT year,month,avg_sales
 FROM(
@@ -148,7 +147,7 @@ FROM Retail_sales
 GROUP BY 1,2) t1 
 WHERE year_rank=1;
 ```
-9. **Write a SQL query to find the top 10 customers based on the highest total sales **:
+11. **Write a SQL query to find the top 10 customers based on the highest total sales **:
 ```sql
 SELECT customer_id ,SUM(total_sale) AS Total_sales
 FROM Retail_sales 
@@ -156,14 +155,14 @@ GROUP BY 1
 ORDER BY 2 DESC
 LIMIT 10;
 ```
-10. **Write a SQL query to find the unique customers who purchased items from each category.**:
+12. **Write a SQL query to find the unique customers who purchased items from each category.**:
 ```sql
 SELECT DISTINCT(customer_id) , category
 FROM Retail_sales
 WHERE category IN('Beauty','Clothing','Electronics')
 ORDER BY Customer_id;
 
-11. **Write a SQL query to find the number of unique customers who purchased items from each category.**:
+13. **Write a SQL query to find the number of unique customers who purchased items from each category.**:
 ```sql
 SELECT 
 COUNT(DISTINCT customer_id) count_unq_customer,
@@ -172,7 +171,7 @@ FROM Retail_sales
 GROUP BY category;
 ```
 
-12. **Write a SQL query to create each shift and number of orders (Example Morning <12, Afternoon Between 12 & 17, Evening >17)**:
+14. **Write a SQL query to create each shift and number of orders (Example Morning <12, Afternoon Between 12 & 17, Evening >17)**:
 ```sql
 SELECT 
   CASE 
@@ -213,6 +212,7 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 ## Author - Vidyasagar Panugothu
 
 This project is part of my portfolio, showcasing the SQL skills essential for data analyst and DBMS roles.
+
 
 
 
