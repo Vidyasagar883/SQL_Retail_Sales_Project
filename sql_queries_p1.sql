@@ -1,8 +1,8 @@
 -- SQL Retail Sales Analysis -p1
-CREATE IF NOT EXISTS DATABASE Sql_Project_P1;
+CREATE DATABASE IF NOT EXISTS Sql_Project_P1;
 USE Sql_Project_P1;
 
-CREATE IF NOT EXISTS TABLE Retail_Sales (
+CREATE TABLE IF NOT EXISTS Retail_Sales (
 transactions_id INT PRIMARY KEY, 
 sale_date DATE,
 sale_time TIME,
