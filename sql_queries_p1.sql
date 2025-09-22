@@ -1,8 +1,8 @@
 -- SQL Retail Sales Analysis -p1
-CREATE DATABASE Sql_Project_P1;
+CREATE IF NOT EXISTS DATABASE Sql_Project_P1;
 USE Sql_Project_P1;
 
-CREATE TABLE Retail_Sales (
+CREATE IF NOT EXISTS TABLE Retail_Sales (
 transactions_id INT PRIMARY KEY, 
 sale_date DATE,
 sale_time TIME,
@@ -127,5 +127,11 @@ FROM Retail_sales
 GROUP BY shift
 ORDER BY shift desc;
 
+INSERT IGNORE INTO transactions 
+(transactions_id, sale_date, sale_time, customer_id, gender, age, category, quantity, price_per_unit, cogs, total_sale) 
+VALUES
+(1008, '2025-09-22', '10:30:00', 1, 'Female', 28, 'Electronics', 2, 150.00, 100.00, 300.00),
+(1009, '2025-09-22', '11:15:00', 2, 'Male', 35, 'Clothing', 3, 50.00, 30.00, 150.00),
+(1010, '2025-09-22', '12:45:00', 1, 'Female', 28, 'Books', 5, 20.00, 10.00, 100.00);
 
 
