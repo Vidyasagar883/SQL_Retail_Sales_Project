@@ -127,6 +127,19 @@ FROM Retail_sales
 GROUP BY shift
 ORDER BY shift desc;
 
+-- Q.14
+
+  SELECT 
+  CASE 
+    WHEN HOUR(sale_time) < 12 THEN 'Morning'
+    WHEN HOUR(sale_time) BETWEEN 12 AND 17 THEN 'Afternoon'
+    ELSE 'Evening'
+  END as shift,
+COUNT(*) AS Total_No_Orders
+FROM Retail_sales
+GROUP BY shift
+ORDER BY shift desc;
+
 INSERT IGNORE INTO transactions 
 (transactions_id, sale_date, sale_time, customer_id, gender, age, category, quantity, price_per_unit, cogs, total_sale) 
 VALUES
