@@ -6,7 +6,8 @@
 **Level**: Beginner  
 **Database**: `Sql_Project_P1`
 
-This project shows SQLand Power BI skills by setting up a retail sales database, exploring the data, cleaning it, and answering business questions with queries.
+This project shows SQLand Power BI skills by setting up a retail sales database, exploring the data, cleaning it, and answering business questions with queries and
+Developing a retail sales analytics solution to identify profitability trends and optimize marketing spend.
 
 ## Objectives
 
@@ -252,6 +253,7 @@ This project successfully proves my ability to handle the entire data pipeline, 
 ## Author - Vidyasagar Panugothu
 
 This project is part of my portfolio, showcasing the SQL and Power BI skills essential for data analyst and DBMS roles.
+
 
 
 
