@@ -219,7 +219,7 @@ ORDER BY shift desc;
 </td>
 <td align="center" style="vertical-align: top; padding: 10px;">
 <b>7. Post-Holiday Dip (January)</b>
-<img src="BI_Reports/Total_Sales_Jan.PNG" alt="January Total Sales" width="50%">
+<img src="BI_Reports/Total_Sales_Jan.PNG" alt="January Total Sales" width="100%">
 </td>
 </tr>
 </table>
@@ -252,6 +252,7 @@ This project successfully proves my ability to handle the entire data pipeline, 
 ## Author - Vidyasagar Panugothu
 
 This project is part of my portfolio, showcasing the SQL and Power BI skills essential for data analyst and DBMS roles.
+
 
 
 
