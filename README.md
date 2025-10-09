@@ -186,27 +186,45 @@ GROUP BY shift
 ORDER BY shift desc;
 ```
 **Power BI Reports**:
+**1.Total Sales Report**
 
 <img width="220" height="196" alt="image" src="BI_Reports/Total_Sales_Report.PNG" />
+
+**2.Total SalesReport Females**
+<img width="220" height="196" alt="image" src="BI_Reports/Total_Sales_Report_Females.PNG" />
+
+**3.Total Sales Report Males**
+<img width="220" height="196" alt="image" src="BI_Reports/Total_Sales_Report_Males.PNG" />
+
+**4.Total Sales Jan**
+<img width="220" height="196" alt="image" src="BI_Reports/Total_Sales_Jan.PNG" />
+
+**5.Total Sales Dec**
+<img width="220" height="196" alt="image" src="BI_Reports/Total_Sales_Dec.PNG" />
+
+**6.Total Sales Dec Females**
+<img width="220" height="196" alt="image" src="BI_Reports/Total_Sales_Dec_Females.PNG" />
+
+**7.Total Sales Dec Males**
+<img width="220" height="196" alt="image" src="BI_Reports/Total_Sales_Dec_Males.PNG" />
 
 
 ## Findings
 
 - **Customer Demographics**: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
-- **High-Value Transactions**: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
-- **Sales Trends**: Monthly analysis shows variations in sales, helping identify peak seasons.
-- **Customer Insights**: The analysis identifies the top-spending customers and the most popular product categories.
+- **Overall Performance**: Total sales were $911.72K with a near-even gender split, though females slightly led the 50.48% Gross Profit margin.
+- **Seasonal Trends**: The December sales period was a peak month ($142.03K), followed by a sharp post-holiday dip in January ($46.43K).
+- **Customer Behavior**: Both genders primarily buy Clothing and Electronics, while males had higher overall spending in December ($79.98K).
 
 ## Reports
 
-- **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
-- **Trend Analysis**: Insights into sales trends across different months and shifts.
-- **Customer Insights**: Reports on top customers and unique customer counts per category.
-
+- **Comprehensive Performance Dashboard**: A dynamic, one-page Power BI dashboard visually summarizing overall sales, profitability (721.96K Gross Profit), and customer metrics (155 unique customers).
+- **Gender and Time-Series Analysis**:  Reports designed with interactive slicers to analyze sales trends over time and compare purchasing behavior, spending, and category preferences between male and female customer segments..
+- **Customer and Category Deep Dives**: Detailed visuals tracking the Top 10 Customers by total sale and charting Gross Profit performance across core product categories (Clothing, Electronics, and Beauty).
+- 
 ## Conclusion
 
-This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
-
+This project successfully proves my ability to handle the entire data pipeline, from setting up the SQL database and cleaning the raw data, all the way through to building dynamic, useful Power BI dashboards. These reports deliver the clear, data-driven insights businesses need to understand sales, and target customers effectively.
 ## How to Use
 
 1. **Clone the Repository**: Clone this project repository from GitHub.
@@ -217,6 +235,7 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 ## Author - Vidyasagar Panugothu
 
 This project is part of my portfolio, showcasing the SQL and Power BI skills essential for data analyst and DBMS roles.
+
 
 
 
