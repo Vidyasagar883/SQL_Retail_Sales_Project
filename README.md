@@ -1,4 +1,4 @@
-# Retail Sales Analysis SQL Project
+# Retail Sales Analysis SQL and Power BI Project
 
 ## Project Overview
 
@@ -6,7 +6,7 @@
 **Level**: Beginner  
 **Database**: `Sql_Project_P1`
 
-This project shows SQL skills by setting up a retail sales database, exploring the data, cleaning it, and answering business questions with queries.
+This project shows SQLand Power BI skills by setting up a retail sales database, exploring the data, cleaning it, and answering business questions with queries.
 
 ## Objectives
 
@@ -14,6 +14,7 @@ This project shows SQL skills by setting up a retail sales database, exploring t
 2. **Data Cleaning**: Identify and remove any records with missing or null values.
 3. **Exploratory Data Analysis (EDA)**: Perform basic exploratory data analysis to understand the dataset.
 4. **Business Analysis**: Use SQL to answer specific business questions and derive insights from the sales data.
+5. **Power BI Reports**: Build a dynamic, one-page dashboard in Power BI to visually track core sales KPIs like Total Revenue and Profit Margin.
 
 ## Project Structure
 
@@ -212,6 +213,7 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 ## Author - Vidyasagar Panugothu
 
 This project is part of my portfolio, showcasing the SQL skills essential for data analyst and DBMS roles.
+
 
 
 
