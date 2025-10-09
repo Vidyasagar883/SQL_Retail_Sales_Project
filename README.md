@@ -185,6 +185,10 @@ FROM Retail_sales
 GROUP BY shift
 ORDER BY shift desc;
 ```
+**Power BI Reports**:
+
+<img width="220" height="196" alt="image" src="C:\SQL_30_08_25\Retail-Sales-Analysis-SQL-Project--P1\Total_Sales_Report" />
+
 
 ## Findings
 
@@ -212,7 +216,8 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 
 ## Author - Vidyasagar Panugothu
 
-This project is part of my portfolio, showcasing the SQL skills essential for data analyst and DBMS roles.
+This project is part of my portfolio, showcasing the SQL and Power BI skills essential for data analyst and DBMS roles.
+
 
 
 
