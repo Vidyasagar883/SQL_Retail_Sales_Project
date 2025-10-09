@@ -239,7 +239,7 @@ ORDER BY shift desc;
 - **Comprehensive Performance Dashboard**: A dynamic, one-page Power BI dashboard visually summarizing overall sales, profitability (721.96K Gross Profit), and customer metrics (155 unique customers).
 - **Gender and Time-Series Analysis**:  Reports designed with interactive slicers to analyze sales trends over time and compare purchasing behavior, spending, and category preferences between male and female customer segments..
 - **Customer and Category Deep Dives**: Detailed visuals tracking the Top 10 Customers by total sale and charting Gross Profit performance across core product categories (Clothing, Electronics, and Beauty).
-- 
+  
 ## Conclusion
 
 This project successfully proves my ability to handle the entire data pipeline, from setting up the SQL database and cleaning the raw data, all the way through to building dynamic, useful Power BI dashboards. These reports deliver the clear, data-driven insights businesses need to understand sales, and target customers effectively.
@@ -253,6 +253,7 @@ This project successfully proves my ability to handle the entire data pipeline, 
 ## Author - Vidyasagar Panugothu
 
 This project is part of my portfolio, showcasing the SQL and Power BI skills essential for data analyst and DBMS roles.
+
 
 
 
