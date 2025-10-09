@@ -200,7 +200,7 @@ ORDER BY shift desc;
 </td>
 <td align="center" style="vertical-align: top; padding: 10px;">
 <b>3. Sales - Male Segment</b>
-<img src="BI_Reports/Total_Sales_Report_Males.PNG" alt="Male Sales Report" width="100%">
+<img src="BI_Reports/Total_sales_Report_Males.PNG" alt="Male Sales Report" width="100%">
 </td>
 </tr>
 
@@ -255,6 +255,7 @@ This project successfully proves my ability to handle the entire data pipeline, 
 ## Author - Vidyasagar Panugothu
 
 This project is part of my portfolio, showcasing the SQL and Power BI skills essential for data analyst and DBMS roles.
+
 
 
 
