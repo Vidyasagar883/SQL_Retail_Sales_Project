@@ -186,27 +186,47 @@ GROUP BY shift
 ORDER BY shift desc;
 ```
 **Power BI Reports**:
-**1.Total Sales Report**
+<div align="center">
 
-<img width="220" height="196" alt="image" src="BI_Reports/Total_Sales_Report.PNG" />
+<table style="width:100%;">
+<tr>
+<td align="center" style="vertical-align: top; padding: 10px;">
+<b>1. Overall Sales Summary</b>
+<img src="BI_Reports/Total_Sales_Report.PNG" alt="Overall Sales Report" width="100%">
+</td>
+<td align="center" style="vertical-align: top; padding: 10px;">
+<b>2. Sales - Female Segment</b>
+<img src="BI_Reports/Total_Sales_Report_Females.PNG" alt="Female Sales Report" width="100%">
+</td>
+<td align="center" style="vertical-align: top; padding: 10px;">
+<b>3. Sales - Male Segment</b>
+<img src="BI_Reports/Total_Sales_Report_Males.PNG" alt="Male Sales Report" width="100%">
+</td>
+</tr>
 
-**2.Total SalesReport Females**
-<img width="220" height="196" alt="image" src="BI_Reports/Total_Sales_Report_Females.PNG" />
+<tr>
+<td align="center" style="vertical-align: top; padding: 10px;">
+<b>4. Peak Month (December)</b>
+<img src="BI_Reports/Total_Sales_Dec.PNG" alt="December Total Sales" width="100%">
+</td>
+<td align="center" style="vertical-align: top; padding: 10px;">
+<b>5. December - Female Sales</b>
+<img src="BI_Reports/Total_Sales_Dec_Females.PNG" alt="December Female Sales" width="100%">
+</td>
+<td align="center" style="vertical-align: top; padding: 10px;">
+<b>6. December - Male Sales</b>
+<img src="BI_Reports/Total_Sales_Dec_Males.PNG" alt="December Male Sales" width="100%">
+</td>
+</tr>
 
-**3.Total Sales Report Males**
-<img width="220" height="196" alt="image" src="BI_Reports/Total_Sales_Report_Males.PNG" />
-
-**4.Total Sales Jan**
-<img width="220" height="196" alt="image" src="BI_Reports/Total_Sales_Jan.PNG" />
-
-**5.Total Sales Dec**
-<img width="220" height="196" alt="image" src="BI_Reports/Total_Sales_Dec.PNG" />
-
-**6.Total Sales Dec Females**
-<img width="220" height="196" alt="image" src="BI_Reports/Total_Sales_Dec_Females.PNG" />
-
-**7.Total Sales Dec Males**
-<img width="220" height="196" alt="image" src="BI_Reports/Total_Sales_Dec_Males.PNG" />
+<tr>
+<td align="center" style="vertical-align: top; padding: 10px;" colspan="3">
+<b>7. Post-Holiday Dip (January)</b>
+<img src="BI_Reports/Total_Sales_Jan.PNG" alt="January Total Sales" width="50%">
+</td>
+</tr>
+</table>
+</div>
 
 
 ## Findings
@@ -235,6 +255,7 @@ This project successfully proves my ability to handle the entire data pipeline, 
 ## Author - Vidyasagar Panugothu
 
 This project is part of my portfolio, showcasing the SQL and Power BI skills essential for data analyst and DBMS roles.
+
 
 
 
