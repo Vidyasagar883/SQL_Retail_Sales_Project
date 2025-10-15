@@ -4,7 +4,6 @@
 
 **Project Title**: Retail Sales Analysis 
 **Database**: `Sql_Project_P1`
-![Dashboard Preview](BI_Reports/Total_Sales_Report.PNG)
 
 
 This project shows SQLand Power BI skills by setting up a retail sales database, exploring the data, cleaning it, and answering business questions with queries and
@@ -17,6 +16,10 @@ Developing a retail sales analytics solution to identify profitability trends an
 3. **Exploratory Data Analysis (EDA)**: Perform basic exploratory data analysis to understand the dataset.
 4. **Business Analysis**: Use SQL to answer specific business questions and derive insights from the sales data.
 5. **Power BI Reports**: Build a dynamic, one-page dashboard in Power BI to visually track core sales KPIs like Total Revenue and Profit Margin.
+
+## Dashboard
+
+![Dashboard Preview](BI_Reports/Total_Sales_Report.PNG)
 
 ## Project Structure
 
@@ -214,6 +217,7 @@ This project successfully proves my ability to handle the entire data pipeline, 
 ## Author - Vidyasagar Panugothu
 
 This project is part of my portfolio, showcasing the SQL and Power BI skills essential for data analyst and DBMS roles.
+
 
 
 
